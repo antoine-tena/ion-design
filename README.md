@@ -25,6 +25,8 @@ Puis lancer l'outil : `cd backend && uv run glaze --help`, ou l'installer sur le
 - [`CLAUDE.md`](CLAUDE.md) et [`.claude/rules/kiln/`](.claude/rules/kiln/) : la charte du code
   et la façon de travailler, pour les humains comme pour les agents.
 - `.vscode/` : réglages et extensions recommandées, partagés par toute l'équipe.
+- `plugins/glaze/` et `.claude-plugin/marketplace.json` : le plugin Claude Code de la
+  commande, et le catalogue qui le publie.
 
 Le projet est généré et tenu à jour par [kiln](https://github.com/antoine-tena/kiln). Changer un
 paramètre (équipe, frameworks, podman…) : `kiln set <clé>=<valeur>`, sur une branche.

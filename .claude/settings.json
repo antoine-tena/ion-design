@@ -15,10 +15,19 @@
         "ref": "main"
       },
       "autoUpdate": true
+    },
+    "glaze": {
+      "source": {
+        "source": "github",
+        "repo": "antoine-tena/glaze",
+        "ref": "main"
+      },
+      "autoUpdate": true
     }
   },
   "enabledPlugins": {
-    "kiln@kiln": true
+    "kiln@kiln": true,
+    "glaze@glaze": true
   },
   "permissions": {
     "deny": [
