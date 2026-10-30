@@ -6,7 +6,7 @@ Everything left to do on glaze, in a single list ordered by priority. Started on
 
 North star: **Un design juste pour chaque site**.
 
-**Next free: T-02.**
+**Next free: T-03.**
 
 ---
 
@@ -34,3 +34,22 @@ Côté kiln : T-391.
 ## 🟡 Normal
 
 ## ⚪ Background — long-running work, debt and ideas
+
+### T-02 · Quand passer par un canevas plutôt que par la page réelle
+- **Type**: idea
+- **Status**: open
+- **Opened**: 2026-10-30
+- **Effort**: S · **Owner**: — · **Due**: —
+- **Origin**: session annski du 2026-10-30, retouche de la fenêtre de nouveautés dans `/workspace`
+
+Retoucher un écran qui existe se fait sur la page réelle (le `/workspace` d'annski) : vrais
+composants, vrai CSS, vraies données, rien à retraduire. Le canevas (Artifact « Design » de
+claude.ai) est une page à part, sans les composants ni le CSS du site, à réécrire une fois
+validée. Il sert dans d'autres cas :
+
+- [ ] explorer une idée avant tout code (une page qui n'existe pas encore) ;
+- [ ] comparer 3 directions visuelles côte à côte ;
+- [ ] envoyer un lien au bureau (ou au client) pour qu'il commente sans lancer le site.
+
+Écrire cette règle là où glaze guide le travail visuel (règle ou skill), pour que chaque session
+choisisse d'elle-même.
