@@ -12,12 +12,14 @@ from typing import TextIO
 from glaze.greeting import build_greeting
 
 PROGRAM = "glaze"
+# The installed package the version is read from.
+DISTRIBUTION = "glaze"
 EXIT_OK = 0
 
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog=PROGRAM, description=__doc__)
-    parser.add_argument("--version", action="version", version=f"%(prog)s {version(PROGRAM)}")
+    parser.add_argument("--version", action="version", version=f"%(prog)s {version(DISTRIBUTION)}")
     parser.add_argument("name", nargs="?", default="", help="à qui dire bonjour")
     return parser
 
