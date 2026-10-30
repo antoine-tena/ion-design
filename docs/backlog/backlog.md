@@ -12,16 +12,24 @@ North star: **Un design juste pour chaque site**.
 
 ## 🔴 Critical
 
-### T-01 · Ticket title
-- **Type**: task
-- **Status**: todo
-- **Opened**: 2026-10-29
-- **Effort**: S · **Owner**: — · **Due**: —
-- **Origin**: —
-
-What to do, why, where to look.
-
 ## 🟠 Important
+
+### T-01 · Reprendre de kiln l'audit visuel `/nuxt:polish`
+- **Type**: task
+- **Status**: blocked — waiting for kiln T-394 (comment un outil arrive dans un repo)
+- **Opened**: 2026-10-30
+- **Effort**: S · **Owner**: — · **Due**: —
+- **Origin**: décision d'antoine du 2026-10-30, répartir ce que kiln porte hors de son métier
+
+`plugins/nuxt/skills/polish/` de kiln critique une page « comme un directeur artistique » : du
+design pur, seule une partie du chemin est propre à Nuxt.
+
+- [ ] Le skill `/glaze:polish`, valable pour tout frontend, plus seulement Nuxt.
+- [ ] Il dépend du serveur MCP Playwright du plugin `nuxt` et de `/nuxt:preview`, qui restent
+  dans kiln (voir une page est de la technique) : décider ce que glaze appelle quand le plugin
+  `nuxt` n'est pas là.
+
+Côté kiln : T-391.
 
 ## 🟡 Normal
 
