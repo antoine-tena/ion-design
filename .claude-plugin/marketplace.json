@@ -6,8 +6,8 @@
   },
   "plugins": [
     {
-      "name": "ion-design",
-      "source": "./plugins/ion-design",
+      "name": "design",
+      "source": "./plugins/design",
       "description": "Le design de la famille Ion : identit\u00e9 visuelle, mise en page, typographie, mouvement, finitions."
     }
   ]
