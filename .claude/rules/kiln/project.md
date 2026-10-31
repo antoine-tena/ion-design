@@ -2,7 +2,7 @@
 Project rules go in CLAUDE.md or in .claude/rules/ outside kiln/. -->
 # design: working here
 
-Le design de la famille Keramos : identité visuelle, mise en page, typographie, mouvement, finitions.
+Le design de la famille Ion : identité visuelle, mise en page, typographie, mouvement, finitions.
 
 Size: **Small**, a small app or site, one or two people, low stakes (`kiln set size=…` changes it).
 Backend a Python command-line tool in `backend/`.

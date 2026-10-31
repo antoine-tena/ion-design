@@ -6,7 +6,7 @@ ci_runner: local
 claude_plugin: true
 compact_window: 400000
 created: '2026-10-29'
-description: 'Le design de la famille Keramos : identité visuelle, mise en page, typographie,
+description: 'Le design de la famille Ion : identité visuelle, mise en page, typographie,
     mouvement, finitions.'
 frontend: none
 language: fr

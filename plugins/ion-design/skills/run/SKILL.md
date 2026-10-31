@@ -1,6 +1,6 @@
 ---
 name: run
-description: Run the `ion-design` command for the user (Le design de la famille Keramos : identité visuelle, mise en page, typographie, mouvement, finitions). Use when the user asks for what ion-design does, or names it.
+description: Run the `ion-design` command for the user (Le design de la famille Ion : identité visuelle, mise en page, typographie, mouvement, finitions). Use when the user asks for what ion-design does, or names it.
 argument-hint: "[arguments of ion-design]"
 ---
 

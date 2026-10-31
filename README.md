@@ -1,6 +1,6 @@
 # design
 
-Le design de la famille Keramos : identité visuelle, mise en page, typographie, mouvement, finitions.
+Le design de la famille Ion : identité visuelle, mise en page, typographie, mouvement, finitions.
 
 ## Démarrage rapide
 
