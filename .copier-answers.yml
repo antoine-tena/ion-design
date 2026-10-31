@@ -1,17 +1,17 @@
 # kiln's answers for this project: never edit by hand, `kiln set` changes them.
-_commit: v0.4.10-17-g9476eb7
+_commit: v0.4.10-27-g9df528c
 _src_path: https://github.com/antoine-tena/kiln.git
 backend: cli
 ci_runner: local
 claude_plugin: true
 compact_window: 400000
 created: '2026-10-29'
-description: 'Le design de la famille Keramos : identité visuelle, mise en page, typographie,
+description: 'Le design de la famille Ion : identité visuelle, mise en page, typographie,
     mouvement, finitions.'
 frontend: none
 language: fr
 language_custom: false
-name: glaze
+name: ion-design
 north_star: Un design juste pour chaque site
 owner: antoine-tena
 podman: false
@@ -24,4 +24,4 @@ statusline_ci: true
 team:
 - antoine-tena
 timezone: Europe/Paris
-title: glaze
+title: design

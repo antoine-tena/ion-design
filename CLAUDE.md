@@ -1,9 +1,9 @@
-# glaze
+# design
 
-Le design de la famille Keramos : identité visuelle, mise en page, typographie, mouvement, finitions.
+Le design de la famille Ion : identité visuelle, mise en page, typographie, mouvement, finitions.
 
-<!-- This file belongs to the project: kiln wrote it once and never changes it. kiln's rules live
-in .claude/rules/kiln/ and are kept current by `kiln update`. Write here what Claude cannot
+<!-- This file belongs to the project: ion-repo wrote it once and never changes it. ion-repo's rules live
+in .claude/rules/kiln/ and are kept current by `ion repo update`. Write here what Claude cannot
 guess about this project, and keep it under 200 lines: every session reads it. -->
 
 ## Repo map
@@ -12,10 +12,10 @@ Where to look, so as not to explore: read it before opening files, and update it
 that adds, moves or removes a directory, a domain or an entry point. One line per place, what
 it holds; no copy of the code.
 
-- `backend/glaze/`: commands (`cli.py`, entry point `__main__.py`) and
+- `backend/ion_design/`: commands (`cli.py`, entry point `__main__.py`) and
   business logic; `backend/tests/`: tests.
 - `docs/backlog/`: the work to do; `charter.toml`: the checked rules; `.claude/rules/kiln/`:
-  kiln's rules for Claude.
+  ion-repo's rules for Claude.
 
 ## Notes
 

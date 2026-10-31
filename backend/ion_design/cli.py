@@ -9,11 +9,11 @@ from collections.abc import Sequence
 from importlib.metadata import version
 from typing import TextIO
 
-from glaze.greeting import build_greeting
+from ion_design.greeting import build_greeting
 
-PROGRAM = "glaze"
+PROGRAM = "ion-design"
 # The installed package the version is read from.
-DISTRIBUTION = "glaze"
+DISTRIBUTION = "ion-design"
 EXIT_OK = 0
 
 

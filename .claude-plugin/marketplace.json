@@ -1,14 +1,14 @@
 {
-  "name": "glaze",
-  "description": "Claude Code plugin of glaze",
+  "name": "ion-design",
+  "description": "Claude Code plugin of ion-design",
   "owner": {
     "name": "antoine-tena"
   },
   "plugins": [
     {
-      "name": "glaze",
-      "source": "./plugins/glaze",
-      "description": "Le design de la famille Keramos : identit\u00e9 visuelle, mise en page, typographie, mouvement, finitions."
+      "name": "ion-design",
+      "source": "./plugins/ion-design",
+      "description": "Le design de la famille Ion : identit\u00e9 visuelle, mise en page, typographie, mouvement, finitions."
     }
   ]
 }

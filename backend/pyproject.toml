@@ -1,20 +1,20 @@
 [project]
-name = "glaze"
+name = "ion-design"
 version = "0.1.0"
-description = "Le design de la famille Keramos : identit\u00e9 visuelle, mise en page, typographie, mouvement, finitions."
+description = "Le design de la famille Ion : identit\u00e9 visuelle, mise en page, typographie, mouvement, finitions."
 requires-python = ">=3.14"
 dependencies = []
 
-# The installed command: `uv run glaze` in backend/, or `uv tool install --editable backend`.
+# The installed command: `uv run ion-design` in backend/, or `uv tool install --editable backend`.
 [project.scripts]
-glaze = "glaze.cli:main"
+ion-design = "ion_design.cli:main"
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["glaze"]
+packages = ["ion_design"]
 
 [dependency-groups]
 dev = [
@@ -38,4 +38,4 @@ strict = true
 python_files = ["test_*.py"]
 
 [tool.coverage.run]
-source = ["glaze"]
+source = ["ion_design"]

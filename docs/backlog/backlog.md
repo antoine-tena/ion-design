@@ -1,6 +1,6 @@
 # Backlog
 
-Everything left to do on glaze, in a single list ordered by priority. Started on
+Everything left to do on design, in a single list ordered by priority. Started on
 **2026-10-29**. How to write a ticket: [README.md](README.md); closed tickets are in
 [done.md](done.md), what was turned down in [rejected.md](rejected.md). **Nothing else is open.**
 
@@ -14,22 +14,22 @@ North star: **Un design juste pour chaque site**.
 
 ## 🟠 Important
 
-### T-01 · Reprendre de kiln l'audit visuel `/nuxt:polish`
+### T-01 · Reprendre de ion-repo l'audit visuel `/nuxt:polish`
 - **Type**: task
-- **Status**: blocked — waiting for kiln T-394 (comment un outil arrive dans un repo)
+- **Status**: blocked — waiting for ion-repo T-394 (comment un outil arrive dans un repo)
 - **Opened**: 2026-10-30
 - **Effort**: S · **Owner**: — · **Due**: —
-- **Origin**: décision d'antoine du 2026-10-30, répartir ce que kiln porte hors de son métier
+- **Origin**: décision d'antoine du 2026-10-30, répartir ce que ion-repo porte hors de son métier
 
-`plugins/nuxt/skills/polish/` de kiln critique une page « comme un directeur artistique » : du
+`plugins/nuxt/skills/polish/` de ion-repo critique une page « comme un directeur artistique » : du
 design pur, seule une partie du chemin est propre à Nuxt.
 
-- [ ] Le skill `/glaze:polish`, valable pour tout frontend, plus seulement Nuxt.
+- [ ] Le skill `/design:polish`, valable pour tout frontend, plus seulement Nuxt.
 - [ ] Il dépend du serveur MCP Playwright du plugin `nuxt` et de `/nuxt:preview`, qui restent
-  dans kiln (voir une page est de la technique) : décider ce que glaze appelle quand le plugin
+  dans ion-repo (voir une page est de la technique) : décider ce que ion-design appelle quand le plugin
   `nuxt` n'est pas là.
 
-Côté kiln : T-391.
+Côté ion-repo : T-391.
 
 ## 🟡 Normal
 
@@ -51,5 +51,5 @@ validée. Il sert dans d'autres cas :
 - [ ] comparer 3 directions visuelles côte à côte ;
 - [ ] envoyer un lien au bureau (ou au client) pour qu'il commente sans lancer le site.
 
-Écrire cette règle là où glaze guide le travail visuel (règle ou skill), pour que chaque session
+Écrire cette règle là où ion-design guide le travail visuel (règle ou skill), pour que chaque session
 choisisse d'elle-même.
