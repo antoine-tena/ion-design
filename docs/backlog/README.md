@@ -1,6 +1,6 @@
 # Backlog
 
-What is left to do on glaze, what is done, and what was turned down. **This folder is the
+What is left to do on design, what is done, and what was turned down. **This folder is the
 only up-to-date source.**
 
 | File | Content |

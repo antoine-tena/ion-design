@@ -5,16 +5,16 @@ paths:
 <!-- Written by kiln and kept current by `kiln update`: do not edit, it would be overwritten. -->
 # Backend: Python command-line tool
 
-`backend/glaze/`: commands (`cli.py`, entry point `__main__.py`) and business logic.
-Run: `cd backend && uv run glaze --help`; install on the machine: `uv tool install --editable
+`backend/ion_design/`: commands (`cli.py`, entry point `__main__.py`) and business logic.
+Run: `cd backend && uv run ion-design --help`; install on the machine: `uv tool install --editable
 backend` (from the root); check: `kiln check`.
 
 ## Architecture
 
-- **[THIN-CLI]** `glaze/cli.py` is the only door: it reads the arguments, calls the core
+- **[THIN-CLI]** `ion_design/cli.py` is the only door: it reads the arguments, calls the core
   and writes the result. No computation, no business decision: beyond dispatching on the
   sub-command, the code goes to a module of the core.
-- **[PURE-CORE]** The core (`glaze/<domain>.py`) receives values and returns values, often
+- **[PURE-CORE]** The core (`ion_design/<domain>.py`) receives values and returns values, often
   `dataclass(frozen=True)`: no `argparse`, no writing to the terminal, no `sys.exit`. It is
   tested without a terminal.
 - **[SYSTEM-AT-THE-EDGE]** What touches the machine (processes, files, network, external

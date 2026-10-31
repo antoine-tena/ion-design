@@ -1,6 +1,6 @@
-# Le plugin Claude Code `glaze`
+# Le plugin Claude Code `ion-design`
 
-Ce que Claude Code sait faire avec la commande `glaze` : `/glaze:…`.
+Ce que Claude Code sait faire avec la commande `ion-design` : `/ion-design:…`.
 
 - `.claude-plugin/plugin.json` : son nom et sa description, sans `version` exprès (Claude Code
   suit alors les commits) ; le catalogue qui le publie est `.claude-plugin/marketplace.json`, à
@@ -10,5 +10,5 @@ Ce que Claude Code sait faire avec la commande `glaze` : `/glaze:…`.
 - Des hooks s'ajoutent dans `hooks/hooks.json`, des serveurs MCP dans `.mcp.json`.
 
 Les sessions ouvertes dans ce dépôt l'activent (`.claude/settings.json`, à l'état de `main`).
-Ailleurs : `claude plugin marketplace add antoine-tena/glaze`, puis
-`claude plugin install glaze@glaze`.
+Ailleurs : `claude plugin marketplace add antoine-tena/ion-design`, puis
+`claude plugin install ion-design@ion-design`.

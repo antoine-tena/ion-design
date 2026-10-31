@@ -1,6 +1,6 @@
 <!-- Written by kiln and kept current by `kiln update`: do not edit, it would be overwritten.
 Project rules go in CLAUDE.md or in .claude/rules/ outside kiln/. -->
-# glaze: working here
+# design: working here
 
 Le design de la famille Keramos : identité visuelle, mise en page, typographie, mouvement, finitions.
 
@@ -9,7 +9,7 @@ Backend a Python command-line tool in `backend/`.
 The repo is generated and kept current by [kiln](https://github.com/antoine-tena/kiln).
 
 ## Commands
-- `cd backend && uv run glaze --help`: run the tool; `uv tool install --editable backend`
+- `cd backend && uv run ion-design --help`: run the tool; `uv tool install --editable backend`
   installs it on the machine.
 - `kiln check`: every check of the stack (ruff, mypy, pytest), then `charter`.
   Run it before saying a change is done.

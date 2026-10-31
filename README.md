@@ -1,4 +1,4 @@
-# glaze
+# design
 
 Le design de la famille Keramos : identité visuelle, mise en page, typographie, mouvement, finitions.
 
@@ -11,7 +11,7 @@ uv tool install kiln-cli   # une fois par poste
 kiln install
 ```
 
-Puis lancer l'outil : `cd backend && uv run glaze --help`, ou l'installer sur le poste par
+Puis lancer l'outil : `cd backend && uv run ion-design --help`, ou l'installer sur le poste par
 `uv tool install --editable backend`.
 
 ## Équipe
@@ -20,11 +20,11 @@ Puis lancer l'outil : `cd backend && uv run glaze --help`, ou l'installer sur le
 
 ## Organisation
 
-- `backend/` : l'outil en ligne de commande `glaze`.
+- `backend/` : l'outil en ligne de commande `ion-design`.
 - [`CLAUDE.md`](CLAUDE.md) et [`.claude/rules/kiln/`](.claude/rules/kiln/) : la charte du code
   et la façon de travailler, pour les humains comme pour les agents.
 - `.vscode/` : réglages et extensions recommandées, partagés par toute l'équipe.
-- `plugins/glaze/` et `.claude-plugin/marketplace.json` : le plugin Claude Code de la
+- `plugins/ion-design/` et `.claude-plugin/marketplace.json` : le plugin Claude Code de la
   commande, et le catalogue qui le publie.
 
 Le projet est généré et tenu à jour par [kiln](https://github.com/antoine-tena/kiln). Changer un
@@ -40,7 +40,7 @@ risque.
 ## Lancer le projet
 
 ```sh
-cd backend && uv run glaze --help
+cd backend && uv run ion-design --help
 uv tool install --editable backend   # depuis la racine : la commande sur tout le poste
 ```
 
