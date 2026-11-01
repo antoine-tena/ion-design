@@ -6,17 +6,27 @@ Everything left to do on design, in a single list ordered by priority. Started o
 
 North star: **Un design juste pour chaque site**.
 
-**Next free: T-03.**
+**Next free: ion-design#T-04.**
 
 ---
 
 ## 🔴 Critical
 
+### ion-design#T-03 · Finish the ion-repo update to v0.4.11
+- **Type**: task
+- **Status**: todo
+- **Opened**: 2026-11-01
+- **Effort**: XS · **Owner**: — · **Due**: —
+- **Origin**: release notes of the ion-repo releases crossed (`ion repo update`)
+
+What ion-repo cannot guess, to fill in right after the update (`/repo:update`):
+- [ ] run `ion repo install --machine` once on each machine, so that its Claude Code catalogue moves from kiln to ion-repo. (v0.4.11)
+
 ## 🟠 Important
 
-### T-01 · Reprendre de ion-repo l'audit visuel `/nuxt:polish`
+### ion-design#T-01 · Reprendre de ion-repo l'audit visuel `/nuxt:polish`
 - **Type**: task
-- **Status**: blocked — waiting for ion-repo T-394 (comment un outil arrive dans un repo)
+- **Status**: blocked — waiting for ion-repo#T-394 (comment un outil arrive dans un repo)
 - **Opened**: 2026-10-30
 - **Effort**: S · **Owner**: — · **Due**: —
 - **Origin**: décision d'antoine du 2026-10-30, répartir ce que ion-repo porte hors de son métier
@@ -29,13 +39,13 @@ design pur, seule une partie du chemin est propre à Nuxt.
   dans ion-repo (voir une page est de la technique) : décider ce que ion-design appelle quand le plugin
   `nuxt` n'est pas là.
 
-Côté ion-repo : T-391.
+Côté ion-repo : ion-repo#T-391.
 
 ## 🟡 Normal
 
 ## ⚪ Background — long-running work, debt and ideas
 
-### T-02 · Quand passer par un canevas plutôt que par la page réelle
+### ion-design#T-02 · Quand passer par un canevas plutôt que par la page réelle
 - **Type**: idea
 - **Status**: open
 - **Opened**: 2026-10-30
