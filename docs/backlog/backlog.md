@@ -6,7 +6,7 @@ Everything left to do on design, in a single list ordered by priority. Started o
 
 North star: **Un design juste pour chaque site**.
 
-**Next free: ion-design#T-04.**
+**Next free: ion-design#T-06.**
 
 ---
 
@@ -24,22 +24,36 @@ What ion-repo cannot guess, to fill in right after the update (`/repo:update`):
 
 ## 🟠 Important
 
-### ion-design#T-01 · Reprendre de ion-repo l'audit visuel `/nuxt:polish`
+### ion-design#T-04 · L'étape brief de la méthode de design
 - **Type**: task
-- **Status**: blocked — waiting for ion-repo#T-394 (comment un outil arrive dans un repo)
-- **Opened**: 2026-10-30
+- **Status**: todo
+- **Opened**: 2026-11-02
 - **Effort**: S · **Owner**: — · **Due**: —
-- **Origin**: décision d'antoine du 2026-10-30, répartir ce que ion-repo porte hors de son métier
+- **Origin**: generateur.md d'Ember Studio, « Notre méthode, en quatre étapes », point 1
 
-`plugins/nuxt/skills/polish/` de ion-repo critique une page « comme un directeur artistique » : du
-design pur, seule une partie du chemin est propre à Nuxt.
+Le brief transforme les réponses du client en un fichier de contenu (l'activité, ses horaires,
+son ton, ses mots-clés en français et en anglais). La source ne dit ni ses champs ni la part du
+design face à celle des affaires (ion-deal vérifie déjà le dossier du client) : trop peu pour un
+skill.
 
-- [ ] Le skill `/design:polish`, valable pour tout frontend, plus seulement Nuxt.
-- [ ] Il dépend du serveur MCP Playwright du plugin `nuxt` et de `/nuxt:preview`, qui restent
-  dans ion-repo (voir une page est de la technique) : décider ce que ion-design appelle quand le plugin
-  `nuxt` n'est pas là.
+- [ ] Décider ce que le brief de design ajoute au dossier du client (ton, public, références,
+  niveau de mouvement), sans recopier les champs d'ion-deal.
+- [ ] Le skill `/design:brief`, dont `/design:direction` lit la sortie.
 
-Côté ion-repo : ion-repo#T-391.
+### ion-design#T-05 · L'étape build de la méthode de design
+- **Type**: task
+- **Status**: todo
+- **Opened**: 2026-11-02
+- **Effort**: M · **Owner**: — · **Due**: —
+- **Origin**: generateur.md d'Ember Studio, « Notre méthode, en quatre étapes », point 3
+
+Les pages s'assemblent à partir d'une bibliothèque de sections qui suivent les tokens. Cette
+bibliothèque n'existe pas encore et la part propre à une structure reste privée chez elle :
+attendre l'essai qui la fait naître.
+
+- [ ] Ce que l'outil porte (comment une section lit les tokens, comment choisir et ordonner les
+  sections d'une page) et ce que la bibliothèque d'une structure garde.
+- [ ] Le skill `/design:build`, entre `/design:direction` et `/design:polish`.
 
 ## 🟡 Normal
 
