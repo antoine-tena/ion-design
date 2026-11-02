@@ -24,22 +24,6 @@ What ion-repo cannot guess, to fill in right after the update (`/repo:update`):
 
 ## 🟠 Important
 
-### ion-design#T-04 · L'étape brief de la méthode de design
-- **Type**: task
-- **Status**: todo
-- **Opened**: 2026-11-02
-- **Effort**: S · **Owner**: — · **Due**: —
-- **Origin**: generateur.md d'Ember Studio, « Notre méthode, en quatre étapes », point 1
-
-Le brief transforme les réponses du client en un fichier de contenu (l'activité, ses horaires,
-son ton, ses mots-clés en français et en anglais). La source ne dit ni ses champs ni la part du
-design face à celle des affaires (ion-deal vérifie déjà le dossier du client) : trop peu pour un
-skill.
-
-- [ ] Décider ce que le brief de design ajoute au dossier du client (ton, public, références,
-  niveau de mouvement), sans recopier les champs d'ion-deal.
-- [ ] Le skill `/design:brief`, dont `/design:direction` lit la sortie.
-
 ### ion-design#T-05 · L'étape build de la méthode de design
 - **Type**: task
 - **Status**: todo

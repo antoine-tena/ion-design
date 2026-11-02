@@ -7,11 +7,13 @@ Ce que Claude Code sait faire avec la commande `ion-design` : `/design:…`.
   la racine du dépôt.
 - `skills/` : un dossier par skill, nommé d'un verbe (`skills/<verbe>/SKILL.md`, son `name` est
   le nom du dossier). La méthode de design d'un site, en quatre étapes (brief, direction, build,
-  polish) : `/design:direction` (squelette) trouve la direction visuelle et en tire les tokens,
+  polish) : `/design:brief` tire du dossier du client ce que le design en attend (audience,
+  action principale, caractère, photos, références, niveau de mouvement) sans le recopier,
+  `/design:direction` (squelette) trouve la direction visuelle et en tire les tokens,
   `/design:polish` audite une page sur captures et la corrige, pour tout frontend ; `run` lance
   la commande `ion-design`.
-- `references/` : le savoir-faire partagé par les skills (les signes d'un site générique, le
-  mouvement selon le niveau).
+- `references/` : le savoir-faire partagé par les skills (le modèle du brief et son exemple
+  inventé, les signes d'un site générique, le mouvement selon le niveau).
 - Des hooks s'ajoutent dans `hooks/hooks.json`, des serveurs MCP dans `.mcp.json`.
 
 Les sessions ouvertes dans ce dépôt l'activent (`.claude/settings.json`, à l'état de `main`).

@@ -25,7 +25,8 @@ Puis lancer l'outil : `cd backend && uv run ion-design --help`, ou l'installer s
   et la façon de travailler, pour les humains comme pour les agents.
 - `.vscode/` : réglages et extensions recommandées, partagés par toute l'équipe.
 - `plugins/design/` et `.claude-plugin/marketplace.json` : le plugin Claude Code (la méthode
-  de design : `/design:direction`, `/design:polish`), et le catalogue qui le publie.
+  de design : `/design:brief`, `/design:direction`, `/design:polish`), et le catalogue qui le
+  publie.
 
 Le projet est généré et tenu à jour par [ion-repo](https://github.com/antoine-tena/ion-repo). Changer un
 paramètre (équipe, frameworks, podman…) : `ion repo set <clé>=<valeur>`, sur une branche.
