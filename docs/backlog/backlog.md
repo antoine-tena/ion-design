@@ -33,7 +33,9 @@ What ion-repo cannot guess, to fill in right after the update (`/repo:update`):
 
 Les pages s'assemblent à partir d'une bibliothèque de sections qui suivent les tokens. Cette
 bibliothèque n'existe pas encore et la part propre à une structure reste privée chez elle :
-attendre l'essai qui la fait naître.
+attendre l'essai qui la fait naître. Cet essai est la répétition sur un salon fictif, dans
+ion-repo-sandbox, pas un vrai client : dossier rempli, `ion deal check` puis `ion deal new`,
+`/design:brief`, `/design:direction`, puis le build.
 
 - [ ] Ce que l'outil porte (comment une section lit les tokens, comment choisir et ordonner les
   sections d'une page) et ce que la bibliothèque d'une structure garde.
