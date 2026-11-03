@@ -24,7 +24,8 @@ Project skills: !`ls .claude/skills 2>/dev/null | tr '\n' ' '`
    families: hierarchy and typography, alignment and spacing, colours and contrast, consistency
    with the rest of the site, images, missing states (empty, loading, error), motion and
    micro-interactions, mobile, accessibility. Check the page against
-   `${CLAUDE_PLUGIN_ROOT}/references/generic-signs.md`. For each defect: what is wrong, why it
+   `${CLAUDE_PLUGIN_ROOT}/references/generic-signs.md` and
+   `${CLAUDE_PLUGIN_ROOT}/references/quality-floor.md`. For each defect: what is wrong, why it
    looks "cheap", the fix.
 4. **Suggest** 1 to 3 "wow effect" ideas suited to the page (reveal on scroll, animated
    figures, light parallax, video header…), within the site's motion level

@@ -25,5 +25,7 @@ than guessing; an open question it marks as changing the direction waits for its
    in each direction, captured on a phone and a computer, side by side.
 4. **The client chooses**: never pick for them; a mix of two is a new direction to show again.
 5. **Turn the chosen one into tokens**: colours, fonts, spacing scale and motion level in the
-   project's tokens file, the single source the sections and pages read. Commit on the work
+   project's tokens file, the single source the sections and pages read. Compute the contrasts
+   of the pairs the site will use and name the focus colour of each background
+   (`${CLAUDE_PLUGIN_ROOT}/references/quality-floor.md`). Commit on the work
    branch; the build step starts from there.

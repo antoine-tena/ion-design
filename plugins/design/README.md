@@ -13,7 +13,7 @@ Ce que Claude Code sait faire avec la commande `ion-design` : `/design:…`.
   `/design:polish` audite une page sur captures et la corrige, pour tout frontend ; `run` lance
   la commande `ion-design`.
 - `references/` : le savoir-faire partagé par les skills (le modèle du brief et son exemple
-  inventé, les signes d'un site générique, le mouvement selon le niveau).
+  inventé, les signes d'un site générique, le plancher de qualité, le mouvement selon le niveau).
 - Des hooks s'ajoutent dans `hooks/hooks.json`, des serveurs MCP dans `.mcp.json`.
 
 Les sessions ouvertes dans ce dépôt l'activent (`.claude/settings.json`, à l'état de `main`).
