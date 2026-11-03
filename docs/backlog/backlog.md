@@ -74,6 +74,12 @@ ion-repo-sandbox, pas un vrai client : dossier rempli, `ion deal check` puis `io
   sections d'une page) et ce que la bibliothèque d'une structure garde.
 - [ ] Le skill `/design:build`, entre `/design:direction` et `/design:polish`.
 
+Premier build fait le 2026-11-03, branche `feat/accueil` du salon : l'accueil en sept sections
+(en-tête, ouverture, prestations, histoire, équipe, venir, pied), les faits du dossier dans un
+module typé `src/salon.ts`, la méthode de frontend-design (plan relu contre le brief, critique
+sur captures) puis `references/quality-floor.md`. Il manquait `sharp` au site pour les images
+d'Astro : à ajouter par ion-repo au gabarit Astro, ou par le build.
+
 ## 🟡 Normal
 
 ### ion-design#T-08 · Captures : Playwright non épinglé, barre d'outils d'Astro, PNG trop lourds
@@ -93,6 +99,10 @@ Trois accrocs en capturant les pistes (méthode de `/design:polish`, reprise par
   `astro build` puis `astro preview`, ou couper `devToolbar`.
 - Une capture pleine page d'ordinateur en PNG dépasse 1 Mo et le hook `check-added-large-files`
   refuse le commit : les garder en JPEG, ou hors de git.
+
+- Une capture pleine page (`--full-page`) laisse vides les images en `loading="lazy"` sous la
+  ligne de flottaison : la page n'est pas défilée. Capturer avec une fenêtre aussi haute que la
+  page (`--viewport-size=1440,3000`) ; vu sur l'accueil du salon le 2026-11-03.
 
 Reproduire : `astro dev --background` dans le site, `npx -y playwright screenshot
 --viewport-size=1440,900 --full-page http://localhost:4321/ x.png`.
