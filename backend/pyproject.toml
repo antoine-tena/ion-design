@@ -2,6 +2,7 @@
 name = "ion-design"
 version = "0.1.0"
 description = "Le design de la famille Ion : identit\u00e9 visuelle, mise en page, typographie, mouvement, finitions."
+license = "MIT"
 requires-python = ">=3.14"
 dependencies = []
 
